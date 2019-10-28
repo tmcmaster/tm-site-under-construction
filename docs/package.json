@@ -1,0 +1,18 @@
+{
+    "name": "demo-tm-site-under-construction",
+    "version": "0.0.1",
+    "description": "Web component to act as a landing page when a site is under construction",
+    "author": "Tim McMaster",
+    "homepage": "https://tmcmaster.github.io/tm-site-under-construction",
+    "license": "MIT",
+    "repository": "https://github.com/tmcmaster/tm-site-under-construction",
+    "scripts": {
+        "build": "npm install && npx @pika/web"
+    },
+    "dependencies": {
+        "lit-element": "^2.0.1",
+        "lit-html": "^1.0.0",
+        "@wonkytech/tm-site-under-construction": "^0.0.1"
+    },
+    "devDependencies": {}
+}
