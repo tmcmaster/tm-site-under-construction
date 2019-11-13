@@ -1,6 +1,6 @@
 {
     "name": "@wonkytech/tm-site-under-construction",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Web component to act as a landing page when a site is under construction",
     "author": "Tim McMaster",
     "homepage": "https://tmcmaster.github.io/tm-site-under-construction",
