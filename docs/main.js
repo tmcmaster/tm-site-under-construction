@@ -8,5 +8,5 @@ render(html`
           margin: 0;
         } 
     </style>
-    <tm-site-under-construction></tm-site-under-construction>
+    <tm-site-under-construction site="Site Name" message="Site Under Construction"></tm-site-under-construction>
 `, document.querySelector('body'));

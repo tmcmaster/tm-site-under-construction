@@ -25,9 +25,11 @@
         "build": "pika build",
         "version": "npm run build",
         "publish": "pika publish",
-        "demo": "owc-dev-server --open demo",
+        "demo": "owc-dev-server",
+        "demo:open": "owc-dev-server --open demo",
         "build:docs": "npm install && npx @pika/web --dest docs/web_modules",
-        "docs": "http-server docs"
+        "docs": "http-server docs",
+        "docs:open": "http-server --open docs"
     },
     "dependencies": {
         "lit-element": "^2.0.1",

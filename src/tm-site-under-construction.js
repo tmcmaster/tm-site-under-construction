@@ -4,14 +4,16 @@ customElements.define('tm-site-under-construction', class extends LitElement {
     // noinspection JSUnusedGlobalSymbols
     static get properties() {
         return {
-            heading: {type: String},
+            site: {type: String},
+            message: {type: String},
             image: {type: String}
         }
     }
 
     constructor() {
         super();
-        this.heading = 'Site Under Construction';
+        this.site = 'Site Under Construction';
+        this.message = '';
         this.image = "images/legohead-transparent.png";
     }
 
@@ -49,17 +51,26 @@ customElements.define('tm-site-under-construction', class extends LitElement {
                 margin-top: 0;
                 font-size: 5vmin;
                 color: gray;
+                text-align: center;
+            }
+            h4 {
+                font-size: 3vmin;
+                color: gray;
+                text-align: center;
             }
         `;
     }
 
     // noinspection JSUnusedGlobalSymbols
     render() {
+        const subheading = 'Site Under Construction';
+        const {site, message, image} = this;
         return html`
             <div class="outer">
                 <div class="inner">
-                    <h2>${this.heading}</h2>
-                    <img src="${this.image}"/>
+                    <h2>${site}</h2>
+                    <h4>${message}</h4>
+                    <img src="${image}"/>
                 </div>
             </div>
         `;
