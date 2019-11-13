@@ -34,7 +34,7 @@
     "dependencies": {
         "lit-element": "^2.0.1",
         "lit-html": "^1.0.0",
-        "@wonkytech/tm-site-under-construction": "^0.0.4"
+        "@wonkytech/tm-site-under-construction": "^0.0.5"
     },
     "devDependencies": {
         "@pika/pack": "^0.5.0",
